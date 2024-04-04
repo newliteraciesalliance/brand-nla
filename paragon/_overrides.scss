@@ -7,14 +7,20 @@
   color: #60676E;
 }
 // Course landing pages
-.important-dates-item-text.course-number .important-dates-item-text.start-date .important-dates-item-text.effort {color: #292C2E;}
+.important-dates-item-text.course-number .important-dates-item-text.start-date .important-dates-item-text.effort {
+  color: #292C2E;
+}
 
 // Lessons
 #root nav[aria-label=breadcrumb] ol li a {
   color: #6b7280 !important;
   font-weight: 500;
 }
-p a:not(btn), a:not(btn) {
-  color: #066 !important;
+
+#main a {
+  text-decoration: underline;
+}
+
+.details a {
   text-decoration: underline;
 }
